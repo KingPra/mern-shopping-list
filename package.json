@@ -22,5 +22,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingPra/mern-shopping-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KingPra/mern-shopping-list/issues"
+  },
+  "homepage": "https://github.com/KingPra/mern-shopping-list#readme"
 }
