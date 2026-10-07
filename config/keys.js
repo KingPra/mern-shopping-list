@@ -1,3 +1,7 @@
-module.exports = {
-  mongoURI: "mongodb://king:REMOVED_@ds051595.mlab.com:51595/mern_shopping"
-};
+const mongoURI = process.env.MONGO_URI;
+
+if (!mongoURI) {
+  throw new Error("MONGO_URI must be set in the server environment before starting the app.");
+}
+
+module.exports = { mongoURI };
